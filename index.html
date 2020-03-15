@@ -10,24 +10,24 @@
     <title>jQuery Salary Calculator</title>
 </head>
 <body>
-<!-- Identify page and purpor-->    
+<!-- Identify page and purpore-->
     <header>
         <h1>Salary Calculator</h1>
-        <p>Please use the form below to add all employees who worked this month. Upon entry, employees will be listed with a total of this month's salary expenditures.</p>
+        <p>Please use the form below to add all employees who worked this month. Once added, employees will be listed with a total of this month's salary expenditures.</p>
         <hr>
     </header>
     <!-- Stuff to build -->
 <!-- form to input employees -->
     <form class='js-employeesInput'>
-        <input class='js-input-lname' id='lName' required type='text' name='lastName'  placeholder='Employee Last Name'>
         <input class='js-input-fname' id='fName' required type='text' name='firstName'  placeholder='Employee First Name'>
+        <input class='js-input-lname' id='lName' required type='text' name='lastName'  placeholder='Employee Last Name'>
         <input class='js-input-eID' id='eID' required type='text' name='empID' placeholder='Employee ID Number'>
         <input class='js-input-title' id='title' required type='text' name='jobTitle'  placeholder='Job Title'>
         <input class='js-input-sal' id='sal' required type='text' name='salary' placeholder='Annual Salary'>
 
-    
+
     <!-- <div class='empentry'> -->
-        <button class='js-btn-addbtn' id='addbtn' name='submit'>Add Employee</button>
+        <button class='js-input-addbtn' id='addbtn' name='addEmp'>Add Employee</button>
         <!-- </div> -->
     </form>
     <!-- Output - Table or Grid -->
@@ -50,11 +50,11 @@
             <td>-Employee ID Number-</td>
             <td>-Job Title-</td>
             <td>-Salary-</td>
-            <td><button clss='js-btn-delbtn' id='delbtn' name='delete'>Delete</button></td>
+            <td><button class='js-output-delbtn' id='delEmp' name='delete'>Delete</button></td>
         </tr>
     </table>
-    <div class='monthlyTotal'>
-        Monthly Total: -$20,000-
+    <div class='totalDue'>
+        Monthly Total: <span class='js-amountDueToStaff'>0.00</span>
     </div>
 </div>
 </body>
