@@ -1,6 +1,8 @@
 console.log('js');
 const staff = [];
-$(document).ready(eomReady);
+$(document).ready(eomReady); {
+    console.log('Ready To Pay');
+}
 
 function eomReady() {
 // event listening
@@ -29,8 +31,8 @@ const ima = {
 staff.push(clair, ima);
 console.log(staff);
 
-function deleteStaffEntry(event) {
-    console.log('Delete ', event);
+/* FIX THIS 8*/
+function deleteStaffEntry() {
     console.log('Delete ', this);
     const staffIndex = $(this).data('index');
     console.log('Delete ', staffIndex);
@@ -39,7 +41,8 @@ function deleteStaffEntry(event) {
     updateDisplay();
 }
 
-function salariesDue(event) {
+/* FIX THIS */
+function salariesDue() {
 console.log('Who needs to be paid');
 const employee = {
 firstName: $('.js-input-fName').val(),
@@ -54,6 +57,7 @@ console.log('Salaries Due: ', staff);
 updateDisplay();
 }
 
+/* FIX THIS */
 function updateDisplay() {
     $('.js-tableRows').empty();
 

@@ -1,3 +1,5 @@
+/* stretch: add styling */
+
 body {
     background-color: lavender;
 }
@@ -18,10 +20,6 @@ input {
 
 }
 
-.empentry {
-    text-align: right;
-}
-
 #addbtn {
     border-width: 3px;
     border-style: ridge;
@@ -35,9 +33,6 @@ input {
     text-shadow: silver ;
 }
 
-.output {
-    margin: 75px 0 0 0;
-}
 
 table {
     text-align: left;
@@ -46,17 +41,17 @@ table {
     border-style: double;
 }
 
-#delbtn {
+#delEmp {
     border-width: 1px;
     border-style: solid;
     color: red;
 }
 
-.total {
+.totalDue {
+    margin-top: 25px;
     font-size: 25px;
     font-weight: bold;
     color: green;
     text-align: right;
 }
 
-/* stretch: add styling */
