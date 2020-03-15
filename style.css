@@ -1,10 +1,17 @@
 body {
     background-color: lavender;
-    
+    }
 
-}
-
-div {
+#addbtn {
+    border-width: 3px;
+    border-style: ridge;
+    height: 35px;
+    width: 15%;
+    padding: 2px; 
+    margin-bottom: 5px;
+    background-color: purple;
+    color: white;
+    text-shadow: silver ;
 
 }
 
