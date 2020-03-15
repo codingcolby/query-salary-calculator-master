@@ -9,54 +9,52 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>jQuery Salary Calculator</title>
 </head>
-
 <body>
+<!-- Identify page and purpor-->    
     <header>
         <h1>Salary Calculator</h1>
-        <p>Please use the form below to add all employees who worked this month</p>
+        <p>Please use the form below to add all employees who worked this month. Upon entry, employees will be listed with a total of this month's salary expenditures.</p>
         <hr>
     </header>
     <!-- Stuff to build -->
+<!-- form to input employees -->
+    <form class='js-employeesInput'>
+        <input class='js-input-lname' id='lName' required type='text' name='lastName'  placeholder='Employee Last Name'>
+        <input class='js-input-fname' id='fName' required type='text' name='firstName'  placeholder='Employee First Name'>
+        <input class='js-input-eID' id='eID' required type='text' name='empID' placeholder='Employee ID Number'>
+        <input class='js-input-title' id='title' required type='text' name='jobTitle'  placeholder='Job Title'>
+        <input class='js-input-sal' id='sal' required type='text' name='salary' placeholder='Annual Salary'>
 
-    <div class='input'>
-    <form>
-        <input type='text' name='lastName' id='lName' placeholder='Employee Last Name'>
-        <input type='text' name='firstName' id='fName' placeholder='Employee First Name'>
-        <input type='text' name='empID' id='eID' placeholder='Employee ID Number'>
-        <input type='text' name='jobTitle' id='title' placeholder='Job Title'>
-        <input type='text' name='salary' id='sal' placeholder='Annual Salary'>
-
+    
+    <!-- <div class='empentry'> -->
+        <button class='js-btn-addbtn' id='addbtn' name='submit'>Add Employee</button>
+        <!-- </div> -->
     </form>
-    <div class='empentry'>
-        <button name='submit' id='addbtn'>Add Employee</button>
-        </div>
-</div>
-
-<div class='output'>
     <!-- Output - Table or Grid -->
     <h2>Monthly Report - Employee Salaries</h2>
     <h3>Employees</h3>
     <!-- Make a table that displays all of my orders -->
-    <table class='staffSalaryTable'>
-        <tr class='head'>
+    <table class='js-staffSalaryTableOutput'>
+        <thead>
+        <tr class='js-tableHeadRow'>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Employee ID</th>
             <th>Job Title</th>
             <th>Salary</th>
         </tr>
-        <tr class='body'>
+        </thead>
+        <tr class='js-tableRows'>
             <td>-First Name-</td>
             <td>-Last Name-</td>
             <td>-Employee ID Number-</td>
             <td>-Job Title-</td>
             <td>-Salary-</td>
-            <td><button name='delete' id='delbtn'>Delete</button></td>
+            <td><button clss='js-btn-delbtn' id='delbtn' name='delete'>Delete</button></td>
         </tr>
-</table>
-</div>
-    <div class='total'>
-        <p> Monthly Total: -$20,000-</p>
+    </table>
+    <div class='monthlyTotal'>
+        Monthly Total: -$20,000-
     </div>
 </div>
 </body>
