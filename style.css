@@ -1,18 +1,62 @@
 body {
     background-color: lavender;
-    }
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+input {
+    border: solid black 1px;
+    border-collapse: separate;
+    width: 15%;
+    font-size: inherit;
+
+}
+
+.empentry {
+    text-align: right;
+}
 
 #addbtn {
     border-width: 3px;
     border-style: ridge;
-    height: 35px;
-    width: 15%;
-    padding: 2px; 
+    height: auto;
+    width: auto;
+    padding: 2px;
     margin-bottom: 5px;
     background-color: purple;
+    font-size: inherit;
     color: white;
     text-shadow: silver ;
-
 }
 
-/* stretch: add styling */ 
+.output {
+    margin: 75px 0 0 0;
+}
+
+table {
+    text-align: left;
+    width: 100%;
+    border-color: black;
+    border-style: double;
+}
+
+#delbtn {
+    border-width: 1px;
+    border-style: solid;
+    color: red;
+}
+
+.total {
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+    text-align: right;
+}
+
+/* stretch: add styling */

@@ -1,43 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
+
 <head>
-    <script src="jQuery v3.4.1.js"></script>
-    <script src="script.js"></script>
-    <link href="style.css" rel="stylesheet" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='jQuery v3.4.1.js'></script>
+    <script src='script.js'></script>
+    <link href='style.css' rel='stylesheet' />
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>jQuery Salary Calculator</title>
 </head>
+
 <body>
     <header>
         <h1>Salary Calculator</h1>
-        <p>Soon this page will have cool things, that does cool stuff</p>
-
+        <p>Please use the form below to add all employees who worked this month</p>
+        <hr>
     </header>
-
-    <h2>Monthly Report - Employee Salaries</h2>
-    
     <!-- Stuff to build -->
 
-    <h3>Add Employee</h3>
-    <button name="submit" id="addbtn">Add Employee</button>
-    <div input>
+    <div class='input'>
     <form>
-        <input type="text" name="lastName" id="lName" placeholder="Employee Last Name">
-        <input type="text" name="firstName" id="fName" placeholder="Employee First Name">
-        <input type="text" name="empID" id="eID" placeholder="Employee ID Number">
-        <input type="text" name="jobTitle" id="title" placeholder="Job Title">
-        <input type="text" name="salary" id="sal" placeholder="Annual Salary">
-     
-        <button name="delete" id="delbtn">Delete</button>
+        <input type='text' name='lastName' id='lName' placeholder='Employee Last Name'>
+        <input type='text' name='firstName' id='fName' placeholder='Employee First Name'>
+        <input type='text' name='empID' id='eID' placeholder='Employee ID Number'>
+        <input type='text' name='jobTitle' id='title' placeholder='Job Title'>
+        <input type='text' name='salary' id='sal' placeholder='Annual Salary'>
+
     </form>
+    <div class='empentry'>
+        <button name='submit' id='addbtn'>Add Employee</button>
+        </div>
 </div>
 
-<div output>
+<div class='output'>
     <!-- Output - Table or Grid -->
+    <h2>Monthly Report - Employee Salaries</h2>
     <h3>Employees</h3>
+    <!-- Make a table that displays all of my orders -->
+    <table class='staffSalaryTable'>
+        <tr class='head'>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Employee ID</th>
+            <th>Job Title</th>
+            <th>Salary</th>
+        </tr>
+        <tr class='body'>
+            <td>-First Name-</td>
+            <td>-Last Name-</td>
+            <td>-Employee ID Number-</td>
+            <td>-Job Title-</td>
+            <td>-Salary-</td>
+            <td><button name='delete' id='delbtn'>Delete</button></td>
+        </tr>
+</table>
 </div>
-    
-    
+    <div class='total'>
+        <p> Monthly Total: -$20,000-</p>
+    </div>
+</div>
 </body>
 </html>

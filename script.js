@@ -6,24 +6,20 @@ const clair = {
     firstName: 'Clair',
     empID: 2845,
     jobTitle: 'Department Head',
-    salary: 90000  
+    salary: 90000
 };
 
 const ima = {
-    lastName: 'Student',
+    lastName: 'Supervisor',
     firstName: 'Ima',
     empID: 2322,
     jobTitle: 'Supervisor',
-    salary: 72000  
+    salary: 72000
 };
 
 // test push to staff array
 staff.push(clair, ima);
 console.log(staff);
-
-
-
-
 
 
 // function collect() {
@@ -37,7 +33,7 @@ console.log(staff);
 // staff.push(employee)
 // }
 
-// for 
+// for () {}
 
 
 // // test collect
