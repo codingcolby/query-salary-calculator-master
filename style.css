@@ -2,44 +2,67 @@
 
 body {
     background-color: lavender;
-}
+    margin: 0;
+    }
 
 header {
-    margin-bottom: 50px;
+    padding: 3%;
+    background-color: rgb(65, 155, 125) ;
+    text-align: center;
+}
+p {
+    text-align: left;
+    font-size: 20px;
 }
 
 form {
-    margin-bottom: 15px;
+    margin: 2% 2% 4% 2%;
 }
 
 input {
     border: solid black 1px;
     border-collapse: separate;
-    width: 15%;
-    font-size: inherit;
+    margin: 0 15px 0 5px;
+    font-size: 14px;
 
 }
 
-#addbtn {
+.js-employeesInput button {
     border-width: 3px;
     border-style: ridge;
     height: auto;
     width: auto;
     padding: 2px;
-    margin-bottom: 5px;
+    margin-bottom: 0 0 5px 15px;
     background-color: purple;
     font-size: inherit;
-    color: white;
+    color: rgb(219, 203, 203);
     text-shadow: silver ;
 }
 
 
 table {
-    text-align: left;
-    width: 100%;
+
     border-color: black;
     border-style: double;
+    width: 100%;
+    border-collapse: collapse;
 }
+
+th {
+    background-color: gray;
+    text-align: left;
+}
+
+td {
+    background-color: hotpink;
+}
+
+th, td {
+border: 1px solid black;
+padding: 5px;
+}
+
 
 #delEmp {
     border-width: 1px;
@@ -48,10 +71,13 @@ table {
 }
 
 .totalDue {
-    margin-top: 25px;
+    margin: 25px 25px 0 0;
     font-size: 25px;
     font-weight: bold;
     color: green;
     text-align: right;
 }
 
+.interact {
+    margin: 2%;
+}
