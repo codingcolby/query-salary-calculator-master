@@ -3,13 +3,14 @@
 body {
     background-color: lavender;
     margin: 0;
-    }
+}
 
 header {
     padding: 3%;
     background-color: rgb(65, 155, 125) ;
     text-align: center;
 }
+
 p {
     text-align: left;
     font-size: 20px;
@@ -24,7 +25,6 @@ input {
     border-collapse: separate;
     margin: 0 15px 0 5px;
     font-size: 14px;
-
 }
 
 .js-employeesInput button {
@@ -34,19 +34,21 @@ input {
     width: auto;
     padding: 2px;
     margin-bottom: 0 0 5px 15px;
-    background-color: purple;
+    background-color:  rgb(65, 155, 125) ;
     font-size: inherit;
-    color: rgb(219, 203, 203);
+    color: white;
     text-shadow: silver ;
 }
 
-
 table {
-
     border-color: black;
     border-style: double;
     width: 100%;
     border-collapse: collapse;
+}
+
+.error {
+    text-align: center;
 }
 
 th {
@@ -54,24 +56,21 @@ th {
     text-align: left;
 }
 
-td {
-    background-color: hotpink;
-}
-
 th, td {
 border: 1px solid black;
 padding: 5px;
 }
 
-
-#delEmp {
+.js-output-delbtn {
     border-width: 1px;
     border-style: solid;
     color: red;
+    margin: auto;
+    display: block;
 }
 
 .totalDue {
-    margin: 25px 25px 0 0;
+    margin: 40px 25px 0 0;
     font-size: 25px;
     font-weight: bold;
     color: green;

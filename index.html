@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang='en'>
-
 <head>
     <script src='jQuery v3.4.1.js'></script>
     <script src='script.js'></script>
@@ -9,55 +8,48 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>jQuery Salary Calculator</title>
 </head>
-<body>
-<!-- Identify page and purpose-->
-    <header>
-        <h1>Salary Calculator</h1>
-        <p>Please use the form below to add all employees who worked this month. </br>
-            Once added, employees will be listed with a total of this month's salary expenditures.</p>
-        <hr>
-    </header>
-    <!-- Stuff to build -->
-<div class="interact">
-<!-- form to input employees -->
-    <form class='js-employeesInput'>
-        <input class='js-input-firstName' id='fName' required type='text' name='firstName'  placeholder='Employee First Name'>
-        <input class='js-input-lastName' id='lName' required type='text' name='lastName'  placeholder='Employee Last Name'>
-        <input class='js-input-eID' id='eID' required type='text' name='empID' placeholder='Employee ID Number'>
-        <input class='js-input-title' id='title' required type='text' name='jobTitle'  placeholder='Job Title'>
-        <input class='js-input-sal' id='sal' required type='number' name='salary' placeholder='Annual Salary - Whole Dollar'>
-        <button class='js-input-submit' id='submit' name='submit'>Add Employee</button>
-    </form>
-    <!-- Output - Table or Grid -->
-    <h2>Monthly Report - Employee Salaries</h2>
-    <h3>Employees</h3>
-    <table class='js-staffSalaryTableOutput'>
-        <thead>
-        <tr class='js-tableHeadRow'>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Employee ID</th>
-            <th>Job Title</th>
-            <th colspan="2">Annual Salary</th>
-        </tr>
-        </thead>
-        <tbody class="js-table-body">
-        <tr class='js-tableRows'></tr>
-            <!--<tr> 
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td><button class='btn js-output-delbtn' data-index='${i}'>Delete</button></td> 
-            </tr>  -->
-        </tbody>
-    </table>
-
-    <div class='totalDue'>
-        Monthly Total: <span class='js-amountDueToStaff'>0.00</span>
-    </div>
-</div>
-</div>
-</body>
+    <body>
+    <!-- Identify page and purpose-->
+        <header>
+            <h1>Salary Calculator</h1>
+                <p>Please use the form below to add all employees who worked this month. </br>
+                Once added, employees will be listed with a total of this month's salary expenditures.</p>
+            <hr>
+        </header>
+<!-- Information below this line is interactive or dynamic-->
+        <div class="interact">
+        <h2>Add Employees to Be Paid</h2>
+        <!-- form to input employees -->
+            <form class='js-employeesInput'>
+                <input class='js-input-firstName' id='fName' required type='text' name='firstName'  placeholder='Employee First Name'>
+                <input class='js-input-lastName' id='lName' required type='text' name='lastName'  placeholder='Employee Last Name'>
+                <input class='js-input-eID' id='eID' required type='text' name='empID' placeholder='Employee ID Number'>
+                <input class='js-input-title' id='title' required type='text' name='jobTitle'  placeholder='Job Title'>
+                <input class='js-input-sal' id='sal' required type='number' name='salary' placeholder='Annual Salary - No ","'>
+                <button class='js-input-submit' id='submit' name='submit'>Add Employee</button>
+            </form>
+<!-- Output - Table -->
+        <h2>Monthly Report - Employee Salaries</h2>
+            <table class='js-staffSalaryTableOutput'>
+                <thead>
+                <tr class='js-tableHeadRow'>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Employee ID</th>
+                    <th>Job Title</th>
+                    <th>Annual Salary</th>
+                    <th class="error">Remove From Report</th>
+                </tr>
+                </thead>
+                <tbody class="js-table-body">
+                    <tr class='js-tableRows'></tr>
+                </tbody>
+            </table>
+<!-- Total updates dynamically and visually enhances if threshold is reached-->
+                <div class='totalDue'>
+                    Monthly Total: <span class='js-amountDueToStaff'>0.00</span>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
