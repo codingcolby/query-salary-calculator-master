@@ -2,7 +2,7 @@
 
 | Weekend Challenge #1           | Detail                                            |
 | ------------------------------ | ------------------------------------------------- |
-| **Project Title**              | jQuery Salary Calculator                          |
+| **Project title**              | jQuery Salary Calculator                          |
 | **Original date**              | 03/14-15/2020                                     |
 | **Duration**                   | 2 days                                            |
 | **Assignment type**            | Solo                                              |
@@ -26,7 +26,7 @@ If an employees is entered into the report in error, managers may also removed e
 
 #### Total monthly salaries exceed threshold
 
-![Entry Page with excessive salary expenditures](documentation/jQuerySS2.png)
+![Entry Page with excessive salary expenditures banner](documentation/jQuerySS2.png)
 
 ## Build Environment
 
@@ -59,6 +59,6 @@ Thanks to [Prime Digital Academy](https://www.primeacademy.io/) guiding me thoug
 
 ## Feedback, Suggestions, Support
 
-Please reach out to me on LinkedIn if you have comments, ideas, or interest in contributing to this project
+Please reach out to me on LinkedIn
 
 - [Nicole Blechynden](https://www.linkedin.com/in/nicoleblechynden/)
