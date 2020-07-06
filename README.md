@@ -18,10 +18,12 @@ If an employees is entered into the report in error, managers may also removed e
 
 ## Screen Shots
 
-Basic entry screen, with the current entry triggering the salary too low warning
+#### Basic entry screen, with the current entry triggering the salary too low warning
+
 ![Entry Page](documentation/jQuerySS1.png)
 
-Total monthly salaries exceed threshold
+#### Total monthly salaries exceed threshold
+
 ![Entry Page with excessive salary expenditures](documentation/jQuerySS2.png)
 
 ## Build Environment
