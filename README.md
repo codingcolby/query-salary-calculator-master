@@ -1,20 +1,20 @@
-# Prime Learning Focus: jQuery
+# Prime Digital Academy - Learning Focus: jQuery
 
-| Weekend Challenge #1            | Detail                                            |
-| ------------------------------- | ------------------------------------------------- |
-| **Project Title:**              | jQuery Salary Calculator                          |
-| **Original date:**              | 03/14-15/2020                                     |
-| **Duration:**                   | 2 days                                            |
-| **Assignment type:**            | Solo                                              |
-| **Feedback applied:**           | Applied \_ naming convention on object properties |
-| **Other changes/enhancements:** | Enhanced README.md                                |
-| **Last modified:**              | 07/05/2020                                        |
+| Weekend Challenge #1           | Detail                                            |
+| ------------------------------ | ------------------------------------------------- |
+| **Project Title**              | jQuery Salary Calculator                          |
+| **Original date**              | 03/14-15/2020                                     |
+| **Duration**                   | 2 days                                            |
+| **Assignment type**            | Solo                                              |
+| **Feedback applied**           | Applied \_ naming convention on object properties |
+| **Other changes/enhancements** | Enhanced README.md                                |
+| **Last modified**              | 07/05/2020                                        |
 
 ## Description
 
 This application assists managers with assessing monthly staff payroll budget status.
 
-If an individual's salary is less than \$22K a low salary warning displays. If the monthly salaries to be paid is above the budgetary threshold of \$20,000, the screen will display a red banner banner containing the grand total.
+If an individual's annual salary is less than \$22K a low salary warning displays. If the monthly salaries to be paid is above the budgetary threshold of \$20K, the screen displays a red banner banner containing the grand total.
 
 If an employees is entered into the report in error, managers may also removed employees from the monthly report.
 
