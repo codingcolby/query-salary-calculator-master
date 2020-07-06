@@ -10,13 +10,15 @@
 
 ## Description
 
-This application assists managers with assessing monthly staff payroll budget status. If the salaries to be paid is above the budgetary threshold of \$20,000, the screen will display a red banner banner containing the grand total.
+This application assists managers with assessing monthly staff payroll budget status.
+
+If an individual's salary is less than \$22K a low salary warning displays. If the monthly salaries to be paid is above the budgetary threshold of \$20,000, the screen will display a red banner banner containing the grand total.
 
 If an employees is entered into the report in error, managers may also removed employees from the monthly report.
 
 ## Screen Shots
 
-Basic entry screen, with salary too low warning for current entry
+Basic entry screen, with the current entry triggering the salary too low warning
 ![Page/Feature Ref](path to immage: documentation/jQuerySS1.png)
 
 Total monthly salaries exceed threshold
