@@ -1,12 +1,14 @@
-# Prime Learning - Weekend Challenge #1
+# Prime Learning Focus: jQuery
 
-**Project Title:** jQuery Salary Calculator
-**Original date:** 03/14-15/2020
-**Duration:** 2 days
-**Assignment type:** Solo
-**Feedback applied:** Applied \_ naming convention on object properties
-**Other changes/enhancements:** Enhanced README.md
-**Last modified:** 07/05/2020
+| Weekend Challenge #1            | Detail                                            |
+| ------------------------------- | ------------------------------------------------- |
+| **Project Title:**              | jQuery Salary Calculator                          |
+| **Original date:**              | 03/14-15/2020                                     |
+| **Duration:**                   | 2 days                                            |
+| **Assignment type:**            | Solo                                              |
+| **Feedback applied:**           | Applied \_ naming convention on object properties |
+| **Other changes/enhancements:** | Enhanced README.md                                |
+| **Last modified:**              | 07/05/2020                                        |
 
 ## Description
 
