@@ -1,11 +1,17 @@
 # Prime Learning - Weekend Challenge #1
 
 **Project Title:** jQuery Salary Calculator
+
 **Original date:** 03/14-15/2020
+
 **Duration:** 2 days
+
 **Assignment type:** Solo
+
 **Feedback applied:** Applied \_ naming convention on object properties
+
 **Other changes/enhancements:** Enhanced README.md
+
 **Last modified:** 07/05/2020
 
 ## Description
@@ -19,10 +25,10 @@ If an employees is entered into the report in error, managers may also removed e
 ## Screen Shots
 
 Basic entry screen, with the current entry triggering the salary too low warning
-(../documentation/jQuerySS1.png)
+(documentation/jQuerySS1.png)
 
 Total monthly salaries exceed threshold
-(../documentation/jQuerySS2.png)
+(documentation/jQuerySS2.png)
 
 ## Build Environment
 
@@ -39,9 +45,11 @@ Total monthly salaries exceed threshold
 - GitHub
 - Atom
 
-## Original Instructions and Assumptions (For context only - affiliation required for some Prime resource access)
+## Original Instructions and Assumptions
 
-![jQuery Salary Calculator Instructions] (path to image: documentation/INSTRUCTIONS.md)
+(For context only - NOTE: some Prime resource access requires affiliation)
+
+[Prime jQuery Salary Calculator Instructions](documentation/INSTRUCTIONS.md)
 
 ## License
 
